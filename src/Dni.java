@@ -1,6 +1,7 @@
 import java.lang.Integer;import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
+import java.util.Scanner;
 
 /**
  * Created by bartek on 2016-05-24.
@@ -14,6 +15,16 @@ public class Dni {
         for (int i = 0; i < GODZINY_DNIA; i++) {
             godziny.add(gen.nextInt(3));
         }
+        return godziny;
+    }
+    public List wypDniaRecznie(){
+        List<Integer> godziny =new ArrayList<>(GODZINY_DNIA);
+
+     //   Scanner in = new Scanner(System.in);
+       // for(int i=0;i<GODZINY_DNIA;i++)
+        //{
+          //  godziny.add(in.nextInt());
+        //}
         return godziny;
     }
 }

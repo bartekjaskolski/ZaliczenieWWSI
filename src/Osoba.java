@@ -51,7 +51,7 @@ public class Osoba {
         Osoba o = new Osoba("asd","asd",array,array1);
         Osoba w = new Osoba("asds","dasd",array,array1);
         Kalendarz k = new Kalendarz();
-        k.metodaprobna();
+       k.metodaprobna();
         k.szukajka();
         //metoda(o.getArray(),w.getArray1());
         //searchFree(o.getArray(),w.getArray1());
